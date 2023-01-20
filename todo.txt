@@ -1,5 +1,16 @@
-1. vectors
-2.
-3.
-4.
-5.
+1. vectors --> In progress
+2. List
+3. Deque
+4. Queue
+5. Priority Queue
+6. Stack
+7. Set
+8. Multiset
+9. Map
+10.Multimap
+11.Pair
+12.Unordered Set
+13.Unordered Multiset
+14.Unordered Map
+15.Unordered Multimap
+

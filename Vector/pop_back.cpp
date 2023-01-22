@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//we can delete last value using pop_back();
+
 int main(){
 
     int arr[1000];
@@ -15,13 +17,13 @@ int main(){
         cout<<v[i]<<" ";
 
     }cout<<endl;
-
-    cout<<v.front()<<endl;  //print first value
-    cout<<v.back()<<endl;   //print last value
     
-    cout<<v.size()<<endl;   //to know the size of vector
+    v.pop_back();
 
+    for(int i=0; i<v.size(); i++){
+        cout<<v[i]<<" ";
+
+    }cout<<endl;
 
     return 0;
 }
-

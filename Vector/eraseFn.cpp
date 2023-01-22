@@ -16,12 +16,16 @@ int main(){
 
     }cout<<endl;
 
-    cout<<v.front()<<endl;  //print first value
-    cout<<v.back()<<endl;   //print last value
-    
-    cout<<v.size()<<endl;   //to know the size of vector
+    // v.erase(v.begin()+3);   //erase a single value
 
+    v.erase(v.begin()+2,v.end()); // 2 to end index delete hoye jabe
+
+    for(int i=0; i<v.size(); i++){
+        cout<<v[i]<<" ";
+
+    }cout<<endl;
 
     return 0;
 }
 
+ 

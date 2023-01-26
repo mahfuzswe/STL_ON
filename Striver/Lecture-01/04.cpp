@@ -51,9 +51,17 @@ int main(){
         cout<<c<<" ";
     }cout<<endl;
 
+    //size()  --> to knw the array size
+    cout<<arr.size();
+
+    //front()  --> for printing first element of an array
+    cout<<arr.front();  //Alt: arr.at(0)
+
+    //back() --> to print last element of an array
+    cout<<arr.back();  //Alt: arr.at(arr.size()-1)
+
     return 0;
 }
 
 
-//https://www.youtube.com/watch?v=iOOzYwBeXIM&list=RDCMUCvtw4vj-uALdzUeRuCLxHPA&index=1
-//__> || 45 min
+

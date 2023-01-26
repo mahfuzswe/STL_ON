@@ -56,13 +56,12 @@ int main(){
 
 
     vector<int>mahfuz;
-    mahfuz.push_back(1);
+    mahfuz.push_back(1); //mahfuz.emplace_back(1); ---> works in same way
     mahfuz.push_back(3);
     mahfuz.push_back(2);
     mahfuz.push_back(5); // -> {1,3,2,5}
 
-    vector<int>mahfuz1(mahfuz.begin(), mahfuz.begin()+2) //->{1,3}
-
+    vector<int>mahfuz1(mahfuz.begin(), mahfuz.begin()+2); //->{1,3}
     // mahfuz.begin() is 1 , mahfuz.begin()+2 means beign theke 2 agee means 2 
     // so, 1 will be included , 3 will be included and 2 will be excluded
 

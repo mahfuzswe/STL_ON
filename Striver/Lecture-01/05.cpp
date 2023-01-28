@@ -56,7 +56,7 @@ int main(){
 
 
     vector<int>mahfuz;
-    mahfuz.push_back(1); //mahfuz.emplace_back(1); ---> works in same way
+    mahfuz.push_back(1); //mahfuz.emplace_back(1); ---> works in same way, but emplace_back takes lesser time than push_back()
     mahfuz.push_back(3);
     mahfuz.push_back(2);
     mahfuz.push_back(5); // -> {1,3,2,5}
@@ -67,7 +67,12 @@ int main(){
 
 
 
+    //lower bound, upper bound
 
+    //swap swap(v1,v2)
+    //begin(), end(), rbegin(), rend()
+    
+    
 
 
     

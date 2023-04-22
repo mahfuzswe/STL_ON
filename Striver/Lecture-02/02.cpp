@@ -36,6 +36,42 @@ int main(){
         cout<< it <<endl;
     }
 
+    //inds how many time 2 occurs
+    ms.count(2);
+
+
+
+    ms.erase(ms.find(2)); //find returns the first instances of 2
+    ms.erase(ms.find(2),ms.find(2)+2);
+
+
+
+
+
+
+
+
+
+    // Key value
+
+    // mahfuz -> 27
+    // rahul -> 31
+    // alim -> 67
+    // khalid -> 81
+
+    //map only store unique keys
+    map<string, int>mpp;
+    mpp["mahfuz"] = 27;
+    mpp["rahul"] = 31;
+    mpp["alim"] = 67;
+    mpp["khalid"] = 81;
+    mpp["mahfuz"] = 29;  // it will overwrite
+
+
+    // it stores everything in the sorted order
+
+
+
 
 
 
